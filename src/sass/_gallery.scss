@@ -1,0 +1,59 @@
+.gallery {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+  //   outline: 1px solid red;
+}
+
+.photo-card {
+  width: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.gallery img {
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.info-box {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  color: #000;
+}
+
+.info-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Alumni Sans Collegiate One', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.info-item {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.large-image {
+  text-decoration: none;
+}
